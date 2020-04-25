@@ -23,6 +23,7 @@
      display: flex;
      justify-content: center;
      align-items: center;
+     margin: 20px;
     
 
 }
@@ -40,10 +41,11 @@
     width: 29%;
     height: 19px;
     min-height: 25px;
-    margin: 20px;
-    padding: 10px;
-
+    margin: 30px;
+    padding: 6px;
 }
+
+
 .box1{
     background: rgb(3, 153, 223);
 }
@@ -57,21 +59,20 @@
 
  @media (max-width: 576px) { 
      .one{
-        background: rgb(206, 230, 230);
-        letter-spacing: 2px;
-        justify-content: center;
-        align-items: center;
+        background: rgb(49, 78, 206);
+     }
+     .box{
+         margin: 20px;
      }
      .two{
         display: flex; 
         flex-direction: column ;
-         background: rgb(180, 205, 226);
-         text-align: center;
-         
+        background: rgb(180, 205, 226);     
      }
      .title{
          color: indigo;
      }
+    
 
         
      
