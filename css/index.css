@@ -60,10 +60,9 @@
  @media (max-width: 576px) { 
      .one{
         background: rgb(49, 78, 206);
+        text-align: center;
      }
-     .box{
-         margin: 20px;
-     }
+     
      .two{
         display: flex; 
         flex-direction: column ;
