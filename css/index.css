@@ -1,21 +1,20 @@
 .grid{
-   width: 97%;
+   width: 100%;
    height:auto;
    display: grid;
    grid-template: 300px 300px / 1fr  1fr 1fr ;  
    
 }
 .one{
-    
     grid-row: 1;
     grid-column: 1/4;
     display: flex;
     justify-content: center;
     align-items: center;
     background: rgb(4, 236, 236);
-    color: #fff;
-    
+    color: #fff;  
 }
+
 .two{
     grid-row: 2/4;
     grid-column: 1/4;
@@ -31,9 +30,8 @@
     flex-direction: column;
     color: #fff;
     border: 1px solid black;
-    
-    
 }
+
 .title{
     font-size: 19px;
 }
@@ -46,10 +44,7 @@
     height: 19px;
     min-height: 19px;
     margin: 6px;
-   
-
 }
-
 
 .box1{
     background: rgb(3, 153, 223);
@@ -67,22 +62,25 @@
      .one{
         background: rgb(49, 78, 206);
         text-align: center;
-        border: 1px solid black ;
-        border-radius: 15px;
+        box-shadow: 3px 3px  solid black;
         font-size: 1rem;
+     }
+     .text1{
+         text-shadow: 10px 4px black;
      }
      
      .two{
         display: flex; 
         flex-direction: column ;
-        background: rgb(180, 205, 226);  
-        border-radius: 15px; 
-        grid-gap: 10px  
+        background: transparent;
+        
      }
      .all{
          text-align: center;
-         border-radius: 15px;
-         margin: 2px;
+         background: rgb(180, 205, 226);  
+         margin: 5px;
+         color: black;
+         box-shadow: 3px 3px;
          
      }
      .title{
