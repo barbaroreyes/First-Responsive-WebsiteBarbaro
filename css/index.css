@@ -75,14 +75,16 @@
      .two{
         display: flex; 
         flex-direction: column ;
-        background: rgb(180, 205, 226);  
+        background: transparent;
         border-radius: 15px; 
         grid-gap: 10px  
      }
      .all{
          text-align: center;
          border-radius: 15px;
+         background: rgb(180, 205, 226);  
          margin: 2px;
+         color: black;
          
      }
      .title{
