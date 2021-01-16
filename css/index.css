@@ -4,6 +4,7 @@ body{
     padding: 0;
     background: black;
     background: linear-gradient(to left, rgb(86, 113, 235), #131414);
+    position: relative;
 }
 .grid{
    width: 100%;
