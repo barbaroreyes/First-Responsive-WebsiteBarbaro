@@ -45,8 +45,13 @@ body{
  .all1{
     background-image: url('https://images.unsplash.com/photo-1476067897447-d0c5df27b5df?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
 }
-
+.all2{
+    background-image: url('https://images.unsplash.com/photo-1515516089376-88db1e26e9c0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8ZmFtaWx5JTIwaG9tZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
 }
+.all3{
+    background-image: url('https://images.unsplash.com/photo-1573566857272-57abcfb03c5a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+}
+
 .title{
     font-size: 19px;
 }
@@ -61,15 +66,7 @@ body{
     margin: 6px;
 }
 
-.box1{
-    background: rgb(3, 153, 223);
-}
-.box2{
-    background: rgb(236, 114, 69);
-}
-.box3{
-   background:rgb(4, 236, 236)
-}
+
 li{
     list-style: none;
     color: #fff;
