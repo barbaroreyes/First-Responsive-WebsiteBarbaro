@@ -25,10 +25,10 @@ body{
 .two{
     grid-row: 2/4;
     grid-column: 1/4;
-  
      display: flex;
      justify-content: center;
      align-items: center;
+     
 }
 .all{
     display: flex;
@@ -36,9 +36,17 @@ body{
     align-items: center;
     flex-direction: column;
     color: #fff;
-    
+    border: 1px solid white;
+    margin: 10px;
+    text-align: center;
+    flex-basis: 25.2% ;
+    height:300px ;
+}
+ .all1{
+    background-image: url('https://images.unsplash.com/photo-1476067897447-d0c5df27b5df?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
 }
 
+}
 .title{
     font-size: 19px;
 }
@@ -70,7 +78,9 @@ li{
 a{ text-decoration: none;
     color: #fff;
 }
-
+img{
+    width: 100%;
+}
  @media (max-width: 576px) { 
      
      .one{
