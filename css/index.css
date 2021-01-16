@@ -81,7 +81,7 @@ img{
  @media (max-width: 576px) { 
      
      .one{
-        background: rgb(49, 78, 206);
+       
         text-align: center;
         box-shadow: 3px 3px  solid black;
         font-size: 1rem;
