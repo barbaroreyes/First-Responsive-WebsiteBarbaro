@@ -36,7 +36,6 @@ body{
     align-items: center;
     flex-direction: column;
     color: #fff;
-    border: 1px solid white;
     margin: 10px;
     text-align: center;
     flex-basis: 25.2% ;
@@ -111,7 +110,8 @@ img{
       
     }
     .all{
-        text-align: center;   
+        text-align: center;  
+        box-shadow: 2px 3px; 
     }
     
   }
