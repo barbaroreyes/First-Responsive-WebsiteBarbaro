@@ -62,7 +62,14 @@ body{
 .box3{
    background:rgb(4, 236, 236)
 }
-
+li{
+    list-style: none;
+    color: #fff;
+    margin: 10px;
+}
+a{ text-decoration: none;
+    color: #fff;
+}
 
  @media (max-width: 576px) { 
      
@@ -100,3 +107,14 @@ body{
         
      }
  } 
+ @media(min-width:468px){
+    .container-1{
+      display: flex;
+    }ul{
+      display: flex;
+      justify-content: center;
+      
+    }
+    
+    
+  }
